@@ -2,7 +2,26 @@ body {
   font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.75;
-  background-color: black;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+  line-height: 2;
+  position: relative;
+  text-decoration: none;
+}
+h1::after {
+  content: " ";
+  width: 3%;
+  height: 2px;
+  background-color: #252525;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-right: -1.5%;
 }
 
 #timeline {
@@ -73,7 +92,7 @@ body {
   top: 55%;
   opacity: 0;
 }
-.tl-content h1 {
+.tl-content h2 {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #1779cf;
@@ -109,4 +128,4 @@ body {
   filter: grayscale(100%);
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style11.cs.map */
