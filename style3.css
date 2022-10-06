@@ -1,3 +1,181 @@
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /*  Theme colors    */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #3c096c;
+
+    /*  gradient color  */
+    --sky: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+    /*  theme font-family  */
+    --JetBrains_Mono: 'JetBrains_Mono', cursive;
+    --Montserrat: 'Montserrat', cursive;
+    --Nunito: 'Nunito', cursive;
+    --PlayfairDisplay: 'PlayfairDisplay', cursive;
+    --BioRhyme: 'BioRhyme', cursive;
+    --Abel: 'Abel', cursive;
+}
+
+/*-------------------------Global Classes------------------------*/
+
+a {
+    text-decoration: none;
+    /* color: var(--text-gray); */
+    color: whitesmoke;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: var(--Nunito);
+}
+
+h3 {
+    font-family: var(--Nunito);
+    font-size: 1.3rem;
+}
+
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-family: geneva;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+span{
+    font-family: geneva;
+}
+
+.container {
+    margin: 0.5vw;
+}
+
+.text-gray {
+    color: var(--text-gray);
+}
+
+p {
+    font-family: var(--Nunito);
+    color: var(--text-light);
+}
+
+/*----------x---------------Global Classes--------------x----------*/
+
+/*-------------------------navbar------------------------*/
+
+.nav {
+    background: rgba(0, 0, 0, 0.886);
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 13vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse {
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.collapse {
+    height: 30rem;
+}
+
+.nav .toggle-collapse .toggle-icons i {
+    font-size: 1.4rem;
+    /* color: var(--text-gray); */
+    color: whitesmoke;
+}
+
+.nav .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Nunito);
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover {
+    background-color: var(--midnight);
+    /* background-color: var(--midnight); */
+}
+
+.nav .nav-items .nav-link:hover a {
+    /* color: var(--white); */
+    color: white;
+}
+
+.nav .nav-brand a {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--JetBrains_Mono);
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+.nav .social {
+    padding: 1.4rem 0;
+}
+
+.nav .social i {
+    padding: 0 .2rem;
+}
+
+.nav .social i:hover {
+    color: #9f86c0;
+    /* color: var(--midnight); */
+    /* color: grey; */
+}
+
+/*----------x---------------navbar--------------x----------*/
+
+
+/* ------------------------------timeline------------------------------ */
 .main-timeline{
     overflow: hidden;
     position: relative;
@@ -169,3 +347,10 @@
         transform: translate(-50%,0);
     }
 }
+
+/* ------------------x------------timeline-----------x------------------- */
+/* -------------------------------------title------------------------------------- */
+
+
+
+/* ----------------------x---------------title--------------x----------------------- */

@@ -18,6 +18,7 @@ h1 {
   position: relative;
   text-decoration: none;
   background-color: black;
+  top: 0;
   
   &::after {
     content: " ";
@@ -38,7 +39,6 @@ h1 {
 #timeline {
   display: flex;
   background-color: #031625;
-
   &:hover {
     .tl-item {
       width: 50%;
@@ -51,7 +51,7 @@ h1 {
   position: relative;
   width: 50%;
   height: 100vh;
-  min-height: 600px;
+  min-height: 400px;
   color: #fff;
   overflow: hidden;
   transition: width 0.5s ease;
@@ -109,7 +109,7 @@ h1 {
   z-index: 1;
   text-align: center;
   margin: 0 1.618em;
-  top: 55%;
+  top: 40%;
   opacity: 0;
   
   h2 {
@@ -123,7 +123,7 @@ h1 {
 
 .tl-year {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
@@ -134,6 +134,7 @@ h1 {
     font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 2.5rem;
     line-height: 0;
+    color: #fff;
   }
 }
 
@@ -149,3 +150,10 @@ h1 {
 }
 
 // -----------------------x--------------timeline----------------x--------------------------
+
+
+// ------------------------------------accordion--------------------------------------------
+
+
+
+// -----------------------x--------------accordion----------------x--------------------------
