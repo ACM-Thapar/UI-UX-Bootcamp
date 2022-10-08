@@ -93,7 +93,7 @@ h1::after {
   opacity: 0;
 }
 .tl-content h2 {
-  font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "BioRhyme"; 
   text-transform: uppercase;
   color: #1779cf;
   font-size: 1.44rem;
